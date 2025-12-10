@@ -1,0 +1,22 @@
+# Ignore dataset directories
+data/
+datasets/
+
+# Ignore compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+checkpoints/
+*.pth
+*.ckpt
+
+# Virtual environments
+venv/
+.env/
